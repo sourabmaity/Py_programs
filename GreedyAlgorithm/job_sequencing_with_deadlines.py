@@ -1,5 +1,5 @@
-profit = [2,4,3,1,10]
-dedline_ = [3,3,3,4,4]
+profit = [2,4,3,1,10]  #change aspire your document 
+dedline_ = [3,3,3,4,4] #change aspire your document 
 total = [0 for i in range(max(dedline_))]
 while total.count(0):
     m = profit.index(max(profit))
